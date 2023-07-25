@@ -1,0 +1,13 @@
+Differences between the 3 approaches
+
+1. Recursion
+Advantages: The recursive approach is easy to implement and understand. It directly follows the mathematical definition of the Fibonacci sequence.
+Disadvantages: The recursive approach may lead to a lot of redundant calculations, especially for larger values of n. This can result in slow execution and exponential time complexity.
+
+2. Dynamic Programming (Memoization)
+Advantages: The dynamic programming approach using memoization stores the results of previously computed Fibonacci values, eliminating redundant calculations and significantly improving performance for large values of n. It has a time complexity of O(n).
+Disadvantages: The main drawback is that it requires additional memory to store the memoization table (dp array) for storing previously computed results.
+
+3. Iterative Approach
+Advantages: The iterative approach is efficient and has a time complexity of O(n). It does not involve any function call overhead, making it faster compared to recursion.
+Disadvantages: Although it avoids redundant calculations, it requires maintaining variables for each Fibonacci value in a loop, which can be less intuitive compared to the recursive approach.
